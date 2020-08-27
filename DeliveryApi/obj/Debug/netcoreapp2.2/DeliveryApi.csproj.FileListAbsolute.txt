@@ -1,0 +1,14 @@
+/home/edward/Documents/DS/ProyectoFinal/DeliveryApi/bin/Debug/netcoreapp2.2/DeliveryApi.deps.json
+/home/edward/Documents/DS/ProyectoFinal/DeliveryApi/bin/Debug/netcoreapp2.2/DeliveryApi.runtimeconfig.json
+/home/edward/Documents/DS/ProyectoFinal/DeliveryApi/bin/Debug/netcoreapp2.2/DeliveryApi.runtimeconfig.dev.json
+/home/edward/Documents/DS/ProyectoFinal/DeliveryApi/bin/Debug/netcoreapp2.2/DeliveryApi.dll
+/home/edward/Documents/DS/ProyectoFinal/DeliveryApi/bin/Debug/netcoreapp2.2/DeliveryApi.pdb
+/home/edward/Documents/DS/ProyectoFinal/DeliveryApi/obj/Debug/netcoreapp2.2/DeliveryApi.csprojAssemblyReference.cache
+/home/edward/Documents/DS/ProyectoFinal/DeliveryApi/obj/Debug/netcoreapp2.2/DeliveryApi.csproj.CoreCompileInputs.cache
+/home/edward/Documents/DS/ProyectoFinal/DeliveryApi/obj/Debug/netcoreapp2.2/DeliveryApi.RazorAssemblyInfo.cache
+/home/edward/Documents/DS/ProyectoFinal/DeliveryApi/obj/Debug/netcoreapp2.2/DeliveryApi.RazorAssemblyInfo.cs
+/home/edward/Documents/DS/ProyectoFinal/DeliveryApi/obj/Debug/netcoreapp2.2/DeliveryApi.AssemblyInfoInputs.cache
+/home/edward/Documents/DS/ProyectoFinal/DeliveryApi/obj/Debug/netcoreapp2.2/DeliveryApi.AssemblyInfo.cs
+/home/edward/Documents/DS/ProyectoFinal/DeliveryApi/obj/Debug/netcoreapp2.2/DeliveryApi.RazorTargetAssemblyInfo.cache
+/home/edward/Documents/DS/ProyectoFinal/DeliveryApi/obj/Debug/netcoreapp2.2/DeliveryApi.dll
+/home/edward/Documents/DS/ProyectoFinal/DeliveryApi/obj/Debug/netcoreapp2.2/DeliveryApi.pdb

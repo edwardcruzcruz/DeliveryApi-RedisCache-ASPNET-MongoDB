@@ -1,0 +1,25 @@
+
+					MongoDB Shell ubuntu
+mongod --dbpath DeliveryData/
+mongo                              --->entrar a mongo db shell
+show dbs
+use DeliveryDb			   --->cambia de base de datos o quizas crea la db y la usaa
+db.createCollection('Cliente')	   --->creo la tabla
+show collections		   --->mostrar tablas
+
+db.Cliente.insertMany([{'Nombre':'Bryan','Apellido':'Perez','Ciudad':'MOUNT TOM','Telefono':'0999999999','estado':'Activo'}, {'Nombre':'Aldair','Apellido':'Soledispa','Ciudad':'EAST LONGMEADOW','Telefono':'0999999998','estado':'Activo'}]) 		--->popular tabla
+
+db.Cliente.find({}).pretty()	   --->mostrar contenido tabla
+
+agregando field a la tabla
+db.Cliente.update({"_id" :ObjectId("5f3ea7c05b1c25705e74b480") },{$set : {"Direccion":"Avenida A"}})
+
+db.Empleado.insertOne({Nombre:'Steven',Apellido:'Cando',Ciudad:'PITTSFIELD',Direccion:'Avenida M',Cedula:'0928373934',Telefono:'0999999988',estado:'Activo'})
+{
+	"acknowledged" : true,
+	"insertedId" : ObjectId("5f401f27056b6b73499326a5")
+}
+
+db.Delivery.deleteOne( {"_id": ObjectId("5f403147056b6b73499326a6")});
+
+db.Delivery.insertOne({Titulo:'Compra insumos medicos',Descripcion:'2 N95 mask, 1 liter of alcohol',Direccion:'Farmacia Drugstores1,Av Kennedy',FechaPedido:new Date(2020, 06, 12, 13, 33),FechaEntrega:new Date(2020,06,12,15,00),Valor:15.50,Empleado_id:ObjectId("5f401f27056b6b73499326a5"),Cliente_id:ObjectId("5f3ff5f4865fd5cf63e88c96"),estado:'Pendiente'})

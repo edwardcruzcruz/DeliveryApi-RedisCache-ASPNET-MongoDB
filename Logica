@@ -1,0 +1,37 @@
+apiglobal=https://localhost:5001/api/
+urlcliente=clientes
+urldelivery=delivery
+urlempleado=empleado
+urldirecciin=direccion
+urlpedido=pedido
+	direccionxTexto
+	direccion por coordenados google map
+
+	url		code
+apiglobal+urlcliente/1 200 yeahh
+apiglobal+urlcliente/1 200
+apiglobal+urlcliente/1 200
+apiglobal+urlcliente/1 200
+apiglobal+urlcliente/1 200
+apiglobal+urlcliente/1 200
+apiglobal+urlempleado/3 200
+urldelivery=delivery 200
+urldelivery=delivery 200
+urldelivery=delivery 200
+urldelivery=delivery 200
+urldelivery=delivery 200
+
+
+redis
+apiglobal+urlcliente/1
+urldelivery=delivery
+
+
+
+
+response 1
+
+response todos
+
+
+
